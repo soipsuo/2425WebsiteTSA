@@ -1,0 +1,87 @@
+
+/* NOTE 1REM = 16px (uses muliply) */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Abril';
+  src: url(/fonts/AbrilFatface-Regular.ttf);
+}
+
+body {
+    font-family: 'Abril Fatface';/* Change for CSS*/
+    min-height: 100vh; /* viewport height*/
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('/Images/homebackground.jpg') no-repeat center center fixed;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;    
+}
+
+
+nav {
+    font-family: 'Abril';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-left: 15%;
+    padding-top: 3EM;
+    gap: 70px;
+    z-index: 1000;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: white;
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
+    transition: color 0.3s ease;
+
+}
+
+nav a:hover {
+    color: rgba(255, 255, 255, 0.7); 
+    background-color: #ddd;
+    border-radius: 8px;
+    border-width: 20px;
+
+}
+
+.content {
+    display: fixed;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+
+}
+
+.content p {
+    font-size: 1.5rem;
+    color: white;
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.7);
+}
+
+.content h1 {
+    margin-top: 2%;
+    font-size: 5rem;
+    top: 0;
+    text-shadow: 10px 10px 5px rgba(0, 0, 0, 0.7);
+    color:aquamarine;
+}
+
+.additional-content {
+    margin: 0 20px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.additional-content p {
+    font-size: 1.2rem;
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}

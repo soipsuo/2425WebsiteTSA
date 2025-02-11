@@ -1,4 +1,4 @@
-.topnav {
+ku.topnav {
   background-color: #333;
   overflow: hidden;
 }
@@ -7,6 +7,7 @@
   font-family: 'Abril';
   src: url(/fonts/AbrilFatface-Regular.ttf);
 }
+
 /* Style the links inside the navigation bar */
 .topnav a {
   float: left;
@@ -15,6 +16,13 @@
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  font-family: 'Abril';
+}
+
+.logo{
+  padding: 0px;
+  height: 20px;
+  width: 20px;
 }
 
 /* Change the color of links on hover */

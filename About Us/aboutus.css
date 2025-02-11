@@ -19,6 +19,12 @@
   font-family: 'Abril';
 }
 
+.logo{
+  padding: 0px;
+  height: 20px;
+  width: 20px;
+}
+
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;
@@ -30,3 +36,52 @@
   background-color: #04AA6D;
   color: white;
 }
+
+body {
+  font-family: 'Abril Fatface';
+  /* Change for CSS*/
+  min-height: 100vh;
+  /* viewport height*/
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Images/homebackground.jpg') no-repeat center center fixed;
+  color: white;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+img {
+  float: right;
+  right: 20%
+}
+
+.ownerdesc {
+  flex: 1;
+  margin-left: 20%;
+  text-align: left;
+  font-family: 'Abril';
+  max-width: 50%;
+}
+
+.ownerimg {
+  width: 200px;
+  float: right;
+  height: auto;
+  border-radius: 10px;
+  flex-shrink: 0;
+  order: 2; 
+  /* margin-right: 20%; */
+}
+.owner-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin:20px; 
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.owner-title {
+  text-align: center;
+  font-size: 36px; /* what is the size??? */
+  margin-bottom: 10px;
+}
+

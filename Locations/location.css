@@ -19,6 +19,12 @@
   font-family: 'Abril';
 }
 
+.logo{
+  padding: 0px;
+  height: 20px;
+  width: 20px;
+}
+
 /* Change the color of links on hover */
 .topnav a:hover {
   background-color: #ddd;

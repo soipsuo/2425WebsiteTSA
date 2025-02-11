@@ -26,10 +26,11 @@ nav {
     font-family: 'Abril';
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
     justify-content: center;
     padding-left: 15%;
     padding-top: 3EM;
-    gap: 70px;
+    gap: 50px;
     z-index: 1000;
 }
 
@@ -41,6 +42,9 @@ nav a {
     font-weight: bold;
     text-shadow: 3px 3px 5px rgba(0, 0, 0, 0.7);
     transition: color 0.3s ease;
+    display: inline-block;
+    padding: 10px 15px;
+    border-radius: 5px;
 
 }
 
@@ -84,4 +88,55 @@ nav a:hover {
     font-size: 1.2rem;
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.7);
+}
+/* Fade-in animation */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+body {
+    animation: fadeIn 1.5s ease-in-out;
+}
+@keyframes slideIn {
+    from {
+        transform: translateX(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+/* Apply animation to nav links */
+nav a {
+    opacity: 0; /* Start hidden */
+    animation: slideIn 0.8s ease-out forwards;
+}
+
+/* Delay each link for a cool effect */
+nav a:nth-child(1) {
+    animation-delay: 0.2s;
+}
+nav a:nth-child(2) {
+    animation-delay: 0.4s;
+}
+nav a:nth-child(3) {
+    animation-delay: 0.6s;
+}
+nav a:nth-child(4) {
+    animation-delay: 0.8s;
+}
+@keyframes bounce {
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-10px);
+    }
 }

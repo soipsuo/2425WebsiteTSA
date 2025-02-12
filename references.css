@@ -1,11 +1,11 @@
-ku.topnav {
+.topnav {
   background-color: #333;
   overflow: hidden;
 }
 
 @font-face {
   font-family: 'Abril';
-  src: url(/fonts/AbrilFatface-Regular.ttf);
+  src: url(/AbrilFatface-Regular.ttf);
 }
 
 /* Style the links inside the navigation bar */

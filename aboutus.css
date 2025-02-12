@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: 'Abril';
-  src: url(/fonts/AbrilFatface-Regular.ttf);
+  src: url(/AbrilFatface-Regular.ttf);
 }
 
 /* Style the links inside the navigation bar */
@@ -42,7 +42,7 @@ body {
   /* Change for CSS*/
   min-height: 100vh;
   /* viewport height*/
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/Images/homebackground.jpg') no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/homebackground.jpg') no-repeat center center fixed;
   color: white;
   background-repeat: no-repeat;
   background-size: cover;
@@ -62,7 +62,7 @@ img {
 }
 
 .ownerimg {
-  width: 200px;
+  width: 400px;
   float: right;
   height: auto;
   border-radius: 10px;
@@ -83,5 +83,32 @@ img {
   text-align: center;
   font-size: 36px; /* what is the size??? */
   margin-bottom: 10px;
+  font-family: 'Abril';
 }
+
+.restdesc {
+  flex: 1;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: 'Abril';
+  max-width: 50%;
+}
+
+.rest-container {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  margin:20px; 
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.resttitle {
+  text-align: center;
+  font-size: 36px; /* what is the size??? */
+  margin-bottom: 10px;
+  font-family: 'Abril';
+}
+
 

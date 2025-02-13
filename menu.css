@@ -5,13 +5,13 @@
 
 @font-face {
   font-family: 'Abril';
-  src: url(/AbrilFatface-Regular.ttf);
+  src: url(AbrilFatface-Regular.ttf);
 }
 
 body {
-  font-family: 'Abril Fatface';/* Change for CSS*/
+  font-family: 'Abril';/* Change for CSS*/
   min-height: 100vh; /* viewport height*/
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('/homebackground.jpg') no-repeat center center fixed;
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('homebackground.jpg') no-repeat center center fixed;
   color: white;
   background-repeat: no-repeat;
   background-size: cover; 
